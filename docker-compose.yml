@@ -1,0 +1,20 @@
+version: '3.9'
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql-server
+    environment:
+      MYSQL_ROOT_PASSWORD: wow
+    volumes:
+      - wowdb-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+  tts:
+    image: ghcr.io/coqui-ai/tts-cpu
+    container_name: tts-server
+    ports:
+      - "5002:5002"
+
+volumes:
+  wowdb-data:

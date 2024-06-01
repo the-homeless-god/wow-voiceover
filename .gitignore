@@ -1,0 +1,17 @@
+__pycache__
+datagrip
+.venv
+sql-data
+.env
+sql/db_dump
+assets/sql/db_dump
+./generated
+.vscode/settings.json
+.DS_Store
+AI_VoiceOver/AI_VoiceOver.toc
+RELEASE
+translator/AI_VoiceOverData_Vanilla-v1.0.0.zip
+assets/tts
+translator/assets/wow-classic-en/AI_VoiceOverData_Vanilla
+translator/assets/wow-classic-ru/AI_VoiceOverData_Vanilla_OGG
+translator/assets/wow-classic-ru/AI_VoiceOverData_Vanilla-RU.zip
